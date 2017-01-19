@@ -1,0 +1,6 @@
+抽象工厂模式的开发过程：
+1. 创建接口：Color, Shape;
+2. 创建实现接口的实体类:Blue, Red, Blue, Rectangle, Square, Circle
+3. 为Color和Shape对象创建抽象类AbstractFactory来获取工厂
+4. 创建拓展了AbstractFactory的工厂类ShapeFactory, ColorFactory，基于给定的信息生成实体类的对象。
+5. 创建一个工厂生产器类FactoryProducer，通过传入形状或颜色信息来获取工厂。

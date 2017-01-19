@@ -1,0 +1,13 @@
+package com.hand.factory_pattern.service.impl;
+
+import com.hand.factory_pattern.service.Color;
+
+public class Blue implements Color {
+
+	@Override
+	public void fill() {
+		System.out.println("Inside Blue::fill() method.");
+
+	}
+
+}
