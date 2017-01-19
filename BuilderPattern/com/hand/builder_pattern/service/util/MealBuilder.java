@@ -7,7 +7,7 @@ import com.hand.builder_pattern.item.VegBurger;
 
 public class MealBuilder {
 
-	public Meal prepareMeal(){
+	public Meal prepareVegMeal(){
 		Meal meal = new Meal();
 		meal.addItem(new VegBurger());
 		meal.addItem(new Coke());
@@ -15,7 +15,7 @@ public class MealBuilder {
 		return meal;
 	}
 	
-	public Meal prepareNonMeal(){
+	public Meal prepareNonVegMeal(){
 		Meal meal = new Meal();
 		meal.addItem(new ChickenBurger());
 		meal.addItem(new Pepsi());
