@@ -1,7 +1,6 @@
 package com.hand.builder_pattern.service.util;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 import com.hand.builder_pattern.service.Item;
